@@ -15,7 +15,7 @@ Feature: Automation for Contact  page to check various static things to reduce m
     Then print current URL
     Then the response status code should be 200
     Then I should see CSS ".page-wrap" in the "page_class" region
-    And I should see CSS ".sidebar_first" in the "contact_page_class" region
+    #And I should see CSS ".sidebar_first" in the "contact_page_class" region
 
 
     Then I should see CSS "#block-sitewidecontactform-2" in the "contact_page_form" region
