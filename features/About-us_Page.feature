@@ -14,8 +14,8 @@ Feature: Automation for PAbout Us Page to reduce manual effort of manual testing
 
     Then I should see CSS "#block-mainpagecontent" in the "page_class" region
     Then I should see CSS ".resource-count-view>div>div>div:nth-child(1)" in the "about_us_page_resource_block" region
-    #Then I should see CSS ".resource-count-view>div>div>div:nth-child(2)" in the "about_us_page_resource_block" region
-    #Then I should see CSS ".row>.col-3:nth-child(1)" in the "about_us_page_resource_block_row" region
+    Then I should see CSS ".resource-count-view>div>div>div:nth-child(2)" in the "about_us_page_resource_block" region
+    Then I should see CSS ".row>.col-3:nth-child(1)" in the "about_us_page_resource_block_row" region
     Then I should see CSS ".row>.col-3:nth-child(2)" in the "about_us_page_resource_block_row" region
     Then I should see CSS ".row>.col-3:nth-child(3)" in the "about_us_page_resource_block_row" region
     Then I should see CSS ".row>.col-3:nth-child(4)" in the "about_us_page_resource_block_row" region
@@ -27,10 +27,10 @@ Feature: Automation for PAbout Us Page to reduce manual effort of manual testing
     Then I follow "About" in the "secondary_orange_menu_bar" region
     Then print current URL
 
-    ##Then I should see CSS ".main-circle" in the "about_us_page_resource_block_column" region
-    ##Then I should see CSS ".name" in the "about_us_page_resource_block_column" region
-    ##Then I should see CSS ".grey-circle" in the "about_us_page_resource_block_column" region
-    ##Then I should see CSS ".count" in the "about_us_page_resource_block_column" region
+    Then I should see CSS ".main-circle" in the "about_us_page_resource_block_column" region
+    Then I should see CSS ".name" in the "about_us_page_resource_block_column" region
+    Then I should see CSS ".grey-circle" in the "about_us_page_resource_block_column" region
+    Then I should see CSS ".count" in the "about_us_page_resource_block_column" region
 
 
   @blackbox @4
