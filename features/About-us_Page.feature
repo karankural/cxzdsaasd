@@ -4,7 +4,7 @@ Feature: Automation for PAbout Us Page to reduce manual effort of manual testing
     Given I am on "/"
     Then I follow "About" in the "secondary_orange_menu_bar" region
     Then print current URL
-    Then the response status code should be 200
+    #Then the response status code should be 200
 
   @blackbox @2
   Scenario: Resource block
